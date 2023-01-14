@@ -109,10 +109,12 @@ nav h2 {
 
 }
 
-/* Responsive Styles (Mobile) */
+/*----------------------- Responsive Styles (Mobile)-------------
+----------------------------------------------------------------------*/
 
 @media screen and (max-width:576px) { 
     
+    /* ----Header Responsive---- */
     
     nav {
         flex-direction: column;
@@ -139,9 +141,33 @@ nav h2 {
         width: 95%;
         
     }
+
+    /* ------Quick List Responsive ----- */
+
+    .list-container {
+        flex-direction: column; 
+        margin: 15px 0;
+    }
+
+    .image-container {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    .list {
+        text-align: center;
+    }
+
+    .list-para {
+        padding: 0 5px 28px;
+    }
 }
 
-/* Responsive Styles (Tablet)  */
+/* ----------------------Responsive Styles (Tablet)------------------
+----------------------------------------------------------------------------  */
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
