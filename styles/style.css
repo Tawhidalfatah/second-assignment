@@ -77,6 +77,38 @@ nav h2 {
 
 
 
+
+/* Quick List Section  */
+
+
+.list-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 85px 300px 130px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+
+.list-title, .list-para {
+    padding-bottom: 28px;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.list-para {
+    color:#727272 ;
+
+}
+
 /* Responsive Styles (Mobile) */
 
 @media screen and (max-width:576px) { 
