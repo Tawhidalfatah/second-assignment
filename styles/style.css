@@ -20,6 +20,8 @@
     margin-bottom: 30px;
 }
 
+
+
 /* Header Section  */
 
 header {
@@ -95,27 +97,87 @@ nav h2 {
     grid-column-gap: 25px;
 }
 
-.list-title, .list-para {
+.list-title,
+.list-para {
     padding-bottom: 28px;
 }
 
-.list-title {
+.list-title,
+.feature-title {
     font-weight: 700;
     font-size: 45px;
 }
 
 .list-para {
-    color:#727272 ;
+    color: #727272;
 
 }
+
+
+/* Features Section  */
+
+
+.feature-container {
+    display: flex;
+    margin: 0 240px;
+    gap: 140px;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ver-line {
+    border-left: 5px solid #FF900E;
+    ;
+    height: 105px;
+}
+
+.feature-box {
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 20px 0;
+
+}
+
+.feature-box-title {
+    padding: 30px 0 10px 33px;
+}
+
+.feature-info {
+    padding: 0 42px 30px 33px;
+}
+
+
+.exp-box {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px; 
+    text-align: center;
+}
+
+.exp-box h2 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+
 
 /*----------------------- Responsive Styles (Mobile)-------------
 ----------------------------------------------------------------------*/
 
-@media screen and (max-width:576px) { 
-    
+@media screen and (max-width:576px) {
+
     /* ----Header Responsive---- */
-    
+
     nav {
         flex-direction: column;
         gap: 50px;
@@ -123,7 +185,7 @@ nav h2 {
         padding-left: 20px;
         align-items: flex-start;
     }
-    
+
     .nav-links {
         flex-direction: column;
     }
@@ -131,26 +193,27 @@ nav h2 {
     .banner-title {
         font-size: 60px;
     }
-    
+
     .banner-description {
         margin: 0;
         padding: 0 10px 30px;
     }
-    
+
     .banner-section img {
         width: 95%;
-        
+
     }
 
     /* ------Quick List Responsive ----- */
 
     .list-container {
-        flex-direction: column; 
+        flex-direction: column;
         margin: 15px 0;
     }
 
     .image-container {
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 10px;
     }
 
     .image-container img {
@@ -171,7 +234,7 @@ nav h2 {
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
-    
+
     /* ----Header Responsive---- */
 
     nav {
@@ -179,28 +242,28 @@ nav h2 {
         gap: 50px;
         padding-bottom: 80px;
         padding-left: 20px;
-       
+
     }
-    
+
     .nav-links {
         gap: 100px;
     }
-    
+
 
     .banner-description {
         margin: 0;
         padding: 0 10px 30px;
     }
-    
+
     .banner-section img {
         width: 95%;
-        
+
     }
 
     /* ------Quick List Responsive ----- */
 
     .list-container {
-        flex-direction: column; 
+        flex-direction: column;
         margin: 15px 50px;
     }
 
