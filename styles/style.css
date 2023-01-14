@@ -93,6 +93,10 @@ nav h2 {
     .nav-links {
         flex-direction: column;
     }
+
+    .banner-title {
+        font-size: 60px;
+    }
     
     .banner-description {
         margin: 0;
@@ -106,3 +110,31 @@ nav h2 {
 }
 
 /* Responsive Styles (Tablet)  */
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+
+    nav {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+       
+    }
+    
+    .nav-links {
+        gap: 100px;
+    }
+    
+
+    .banner-description {
+        margin: 0;
+        padding: 0 10px 30px;
+    }
+    
+    .banner-section img {
+        width: 95%;
+        
+    }
+}
