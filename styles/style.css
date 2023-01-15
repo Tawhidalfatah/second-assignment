@@ -276,16 +276,35 @@ nav h2 {
 .subscribe-container h2 {
     font-size: 45px;
     padding-bottom: 30px;
-} 
+}
 
 #sub-field {
     width: 15%;
     height: 50px;
-    
+
     border-radius: 5px;
 }
 
 
+/* Footer Section  */
+
+
+footer div {
+    width: 80%;
+    
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    
+    margin: 100px 0 150px 200px;
+    padding: 50px 0;
+
+}
+
+footer p {
+    color: #424242;
+    font-size: 20px;
+}
 
 
 /*----------------------- Responsive Styles (Mobile)-------------
@@ -523,7 +542,7 @@ nav h2 {
     }
 
     .sponsor-img img {
-        padding-bottom: 80px ;
+        padding-bottom: 80px;
     }
 
     .sponsor-desc {
