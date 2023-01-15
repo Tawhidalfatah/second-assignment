@@ -267,6 +267,27 @@ nav h2 {
 }
 
 
+/* Newsletter Section  */
+
+.updates-container {
+    text-align: center;
+}
+
+.updates-container h2 {
+    font-size: 45px;
+    padding-bottom: 30px;
+} 
+
+#Subscribe {
+    width: 15%;
+    height: 50px;
+    
+    border-radius: 5px;
+}
+
+
+
+
 /*----------------------- Responsive Styles (Mobile)-------------
 ----------------------------------------------------------------------*/
 
