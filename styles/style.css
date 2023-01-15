@@ -137,7 +137,7 @@ nav h2 {
 
 .feature-box {
     width: 586px;
-    height: 171px;
+    height: 150px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -158,6 +158,10 @@ nav h2 {
 }
 
 
+.overlay-container {
+    position: relative;
+}
+
 .exp-box {
     width: 300px;
     height: 170px;
@@ -177,9 +181,7 @@ nav h2 {
 }
 
 
-.overlay-container {
-    position: relative;
-}
+
 
 
 /*----------------------- Responsive Styles (Mobile)-------------
@@ -238,6 +240,46 @@ nav h2 {
     .list-para {
         padding: 0 5px 28px;
     }
+
+
+    /* Features Section  */
+
+    .feature-container {
+        flex-direction: column;
+        margin: 0 20px;
+        gap: 20px;
+        
+    }
+    
+    .overlay-container img {
+       width: 100%;
+    }
+
+    .feature-box-title {
+        padding-left: 20px;
+    }
+
+    .feature-box {
+        height: 170px;
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+
+    .feature-info {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    .exp-box {
+        top: 400px;
+        left: 0;
+        width: 100%;
+       
+    }
+    
+
 }
 
 /* ----------------------Responsive Styles (Tablet)------------------
