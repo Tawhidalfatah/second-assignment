@@ -419,4 +419,20 @@ nav h2 {
 
     }
 
+
+    /* Facts Responsive  */
+
+    .fact-section-con {
+        margin-top: 300px;
+        padding: 0 50px;
+    }
+
+
+    .icon-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-row-gap: 20px ;
+    }
+
 }
