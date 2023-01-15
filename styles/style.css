@@ -22,7 +22,7 @@
 
 
 
-/* Header Section  */
+/* Header Section Styles */
 
 header {
     background: rgba(255, 144, 14, 0.1);
@@ -57,7 +57,7 @@ nav h2 {
 }
 
 
-/* Banner Section  */
+/* Banner Section Styles  */
 
 .banner-section {
     text-align: center;
@@ -80,7 +80,7 @@ nav h2 {
 
 
 
-/* Quick List Section  */
+/* Quick List Section Styles  */
 
 
 .list-container {
@@ -102,8 +102,7 @@ nav h2 {
     padding-bottom: 28px;
 }
 
-.list-title,
-.feature-title {
+.list-title {
     font-weight: 700;
     font-size: 45px;
 }
@@ -114,7 +113,7 @@ nav h2 {
 }
 
 
-/* Features Section  */
+/* Features Section Styles  */
 
 
 .feature-container {
@@ -133,6 +132,11 @@ nav h2 {
     border-left: 5px solid #FF900E;
     ;
     height: 105px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
 }
 
 .feature-box {
@@ -181,7 +185,7 @@ nav h2 {
 }
 
 
-/* Facts Section  */
+/* Facts Section Styles  */
 
 .fact-section-con {
     text-align: center;
@@ -237,7 +241,7 @@ nav h2 {
     color: #727272;
 }
 
-/* Sponsors Section  */
+/* Sponsors Section Styles  */
 
 .sponsor-container {
     text-align: center;
@@ -267,7 +271,7 @@ nav h2 {
 }
 
 
-/* Newsletter Section  */
+/* Newsletter Section Styles  */
 
 .subscribe-container {
     text-align: center;
@@ -286,7 +290,7 @@ nav h2 {
 }
 
 
-/* Footer Section  */
+/* Footer Section Styles  */
 
 
 footer div {
@@ -312,7 +316,7 @@ footer p {
 
 @media screen and (max-width:576px) {
 
-    /* ----Header Responsive---- */
+    /* ----Header Responsive Styles---- */
 
     nav {
         flex-direction: column;
@@ -340,7 +344,7 @@ footer p {
 
     }
 
-    /* ------Quick List Responsive ----- */
+    /* ------Quick List Responsive Styles ----- */
 
     .list-container {
         flex-direction: column;
@@ -365,7 +369,7 @@ footer p {
     }
 
 
-    /* Features Section  */
+    /* Features Section Responsive Styles  */
 
     .feature-container {
         flex-direction: column;
@@ -403,7 +407,7 @@ footer p {
     }
 
 
-    /* Facts Section  */
+    /* Facts Section Responsive Styles  */
 
 
     .fact-section-con {
@@ -424,7 +428,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-    /* Sponsors Section responsive */
+    /* Sponsors Section responsive Styles */
 
     .sponsor-desc {
         padding: 0 10px;
@@ -439,7 +443,7 @@ footer p {
         padding-bottom: 30px;
     }
 
-    /* Subscribe Section  */
+    /* Subscribe Section Styles  */
 
     .subscribe-container {
         margin-top: 50px;
@@ -451,7 +455,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-    /* Footer Section  */
+    /* Footer Section Responsive Styles  */
 
    
     footer div {
@@ -468,7 +472,7 @@ footer p {
 
 @media screen and (min-width:577px) and (max-width:992px) {
 
-    /* ----Header Responsive---- */
+    /* ----Header Responsive Styles---- */
 
     nav {
         flex-direction: column;
@@ -493,7 +497,7 @@ footer p {
 
     }
 
-    /* ------Quick List Responsive ----- */
+    /* ------Quick List Responsive Styles ----- */
 
     .list-container {
         flex-direction: column;
@@ -504,7 +508,7 @@ footer p {
         text-align: center;
     }
 
-    /* Features Responsive  */
+    /* Features Responsive Styles  */
 
     .feature-container {
         flex-direction: column;
@@ -524,7 +528,7 @@ footer p {
     }
 
 
-    /* Facts Responsive  */
+    /* Facts Responsive Styles  */
 
     .fact-section-con {
         margin-top: 300px;
@@ -539,7 +543,7 @@ footer p {
         grid-row-gap: 20px;
     }
 
-    /* Sponsor Responsive  */
+    /* Sponsor Responsive Styles  */
 
     .sponsor-title {
         margin: 30px;
@@ -558,7 +562,7 @@ footer p {
         padding: 0 10px;
     }
 
-    /* Subscribe responsive  */
+    /* Subscribe responsive Styles  */
 
     #sub-field {
         width: 50%;
