@@ -208,7 +208,7 @@ nav h2 {
 .icon-image {
     margin-top: 50px;
     margin-bottom: 20px;
-    transition:transform 0.5s;
+    transition: transform 1s;
 }
 
 .icon-image:hover {
@@ -328,12 +328,33 @@ nav h2 {
     }
 
     .exp-box {
-        top: 480px;
+        top: 520px;
         left: 0;
         width: 100%;
 
     }
 
+
+    /* Facts Section  */
+
+
+    .fact-section-con {
+        margin-top: 400px;
+        padding: 0;
+    }
+
+    .fact-container {
+        padding: 20px 20px;
+    }
+
+    .icon-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-box {
+        margin-bottom: 20px;
+    }
 
 }
 
