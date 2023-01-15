@@ -227,6 +227,7 @@ nav h2 {
 
 .fact-container p {
     color: #727272;
+    padding-top: 20px;
 }
 
 .icon-container h2 {
@@ -271,7 +272,7 @@ nav h2 {
 }
 
 
-/* Newsletter Section Styles  */
+/* (Bonus) Subscribe Section Styles  */
 
 .subscribe-container {
     text-align: center;
