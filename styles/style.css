@@ -451,6 +451,15 @@ footer p {
         margin-bottom: 20px;
     }
 
+    /* Footer Section  */
+
+   
+    footer div {
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+  
+
 }
 
 /* ----------------------Responsive Styles (Tablet)------------------
@@ -553,6 +562,10 @@ footer p {
 
     #sub-field {
         width: 50%;
+    }
+
+    footer div {
+        margin-left: 80px;
     }
 
 }
