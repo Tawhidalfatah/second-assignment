@@ -237,6 +237,34 @@ nav h2 {
     color: #727272;
 }
 
+/* Sponsors Section  */
+
+.sponsor-container {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.sponsor-desc {
+    color: #727272;
+}
+
+.sponsor-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor-img img {
+    width: 180px;
+    height: 50px;
+    padding: 50px 0 130px;
+    filter: grayscale(100%);
+}
 
 
 /*----------------------- Responsive Styles (Mobile)-------------
@@ -432,7 +460,7 @@ nav h2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
-        grid-row-gap: 20px ;
+        grid-row-gap: 20px;
     }
 
 }
